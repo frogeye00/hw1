@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  
+}
+a {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 15px;
+    border-radius: 50px;  
+    text-decoration: none;
+    }
+  a:hover{
+    text-decoration: underline;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    height: 70px;
+    background-color: gray;
+    
+    }
+  
+  header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.snapitaly.it/wp-content/uploads/2020/08/cinema-auditorium-with-white-blank-bright-screen-43605-2975.jpg);
+    height:600px;
+    position :relative;
+  }
+  
+  #overlay {
+    background-color:rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #title{
+    font-weight: 100;
+    font-size: 40px;
+    font-family: 'Times New Roman',  sans-serif;
+    margin: 0px;
+    color: white;
+    max-width: 600px;
+    max-height: 600px;
+    position: relative;
+    margin-bottom: 93px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+  }
+
+
+#welcome{
+  font-weight: 200;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 90%;
+}
+
+#feed {
+  width: 80%;
+  
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  margin-bottom: 30px;
+  background-color: blanchedalmond;
+  padding: 15px;
+  
+}
+
+
+.ghost_profile{
+  width: 20%;
+}
+
+.userinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px dotted black;
+  
+}
+.text{
+  border-bottom: 2px solid black;
+}
+
+.time {
+  margin:0px ;
+}
+
+.name,.username{
+  color: black;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+
+}
+
+img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.post div{
+  padding: 10px;
+}
+
+.username{
+  padding: 10px;
+}
+
+.title{
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+.content{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.delete_post{
+  width: fit-content;
+}
+
+footer{
+  background-color: black;
+  height: 130px;
+}
+
+#footer{
+  font-weight: 100;
+  font-size: 20px;
+  font-family: 'Courier New', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+button{
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px 20px;
+  border: solid 1px #0076a3;
+  background: #0095cd;
+  
+}
+
+@media (max-width: 600px) {
+  a{
+    font-size: 15px;
+  }
+  #title{
+    max-width: 300px;
+  }
+} 
